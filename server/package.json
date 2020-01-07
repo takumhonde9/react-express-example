@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "client -install": "cd ../client && npm install",
+        "start": "node app.js",
+        "server": "nodemon app.js",
+        "client": "cd ../client && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "Takudzwa Mhonde",
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^5.0.2",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
