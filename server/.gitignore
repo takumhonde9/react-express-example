@@ -1,5 +1,6 @@
-#ignore dependencies
+# dependencies
 /node_modules
 
-#misc
-npm-debug.log*
+# misc
+.DS_Store
+.env.local
